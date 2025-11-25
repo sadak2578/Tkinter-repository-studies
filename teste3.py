@@ -18,8 +18,6 @@ def soma_num():
 	except ValueError:
 		resultado = "Erro: Digite apenas números"
 	
-	
-
 	#limpa toda a janela
 	label1.destroy()
 	numero1.destroy()
@@ -51,12 +49,4 @@ numero2.grid(row=1, column=1)
 bt_funcao = tk.Button(root, text='somar',command=soma_num)
 bt_funcao.grid(row=2, column=0)
 
-
-
-
-
 root.mainloop()
-
-
-
-
