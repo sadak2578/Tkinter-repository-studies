@@ -38,4 +38,7 @@ bt_credito.grid(row=1, column=0, sticky='e', padx=70, pady=(30,70))
 
 
 
+
 root.mainloop()
+
+#continuar código
